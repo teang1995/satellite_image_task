@@ -17,4 +17,12 @@ vggnet 이용한 classification 초안 업로드.
 csv파일에 대한 질문 필요.
 
 ***
+2020.01.27
 
+vggnet 이용한 classification code 완성.
+
+google drive의 시간 초과 오류 발생. 
+
+해결 필요함.
+
+***
