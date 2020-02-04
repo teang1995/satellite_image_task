@@ -26,3 +26,13 @@ google drive의 시간 초과 오류 발생.
 해결 필요함.
 
 ***
+2020.02.04
+
+vggnet -> ResNet18로 모델 변경해야 함.
+
+imagenet pretrain vs from scratch accuracy 비교해야 함.
+
+data augmentation 추가해야 함.
+
+
+
