@@ -32,7 +32,19 @@ vggnet -> ResNet18로 모델 변경해야 함.
 
 imagenet pretrain vs from scratch accuracy 비교해야 함.
 
-data augmentation 추가해야 함.
+data augmentation 추가해야 함
+
+***
+2020.02.11
+
+ResNet18로 모델 변경 완료.
+
+학습 되는 것 확인.
+
+validation loss증가 시 weight 갱신하는 조건 더 명확히 해야 함.
+
+질문 후 답변 기다리는 중.
+***
 
 
 
