@@ -45,6 +45,29 @@ validation loss증가 시 weight 갱신하는 조건 더 명확히 해야 함.
 
 질문 후 답변 기다리는 중.
 ***
+2020.02.18
 
+ResNet18 baseline : 50epoch에서 79~80%의 Accuracy 보임.
 
+ResNet18 baseline에 다음의 trick들을 도입함.
+
+  - learning rate warmup
+  
+  - cosine learning rate decay
+  
+  - ResNet tweak C,D
+ 
+ResNet18 with tricks : 70epoch정도에서 88~90%의 Accuracy 보임.
+  
+다음의 trick들을 추가 도입해야 함.
+
+  -label smoothing
+  
+  - data mixup(https://arxiv.org/pdf/1710.09412.pdf)
+  
+  - random scaling crop , horizontal flipflop.
+
+어떤 trick의 영향력이 가장 큰지 개별적으로 실험 필요함.
+
+SSD구현, detection에 적합한 1GB 이내 용량의 dataset 조사 필요함. 
 
